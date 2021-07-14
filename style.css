@@ -1,0 +1,91 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(90, 118, 197);
+    font-size: 40;
+}
+
+h3 {
+    font-size: 35px;
+    color: rgb(90, 118, 197)
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+body {
+    background-image: url("images/palmier.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.card {
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 15px;;
+}
+
+#card-opacity {
+    padding: 20px;
+}
+
+
+.icone {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 15px;
+}
+
+.icone:hover {
+    color: rgb(55, 107, 141); 
+}
+
+#me {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.lien {
+  font-family: 'Times New Roman', Times, serif ;
+  font-size: 20px;
+  color:rgb(224, 230, 195);
+  text-decoration: none;
+  background-color: rgb(0, 81, 151);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 570px) {
+    .lien {
+        font-size: 17px;
+        padding: 7px;
+    }
+}
+
+@media (max-width: 530px) {
+    .lien {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+.lien:hover {
+  background-color: rgb(55, 107, 141);
+}
+
+.container {
+  margin: 120px;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0px;  
+}
